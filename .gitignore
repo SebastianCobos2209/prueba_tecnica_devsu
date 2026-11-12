@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark and generated data
+spark-warehouse/
+metastore_db/
+derby.log
+*.parquet
+*.orc
+
+# SQLite source and build artifacts
+sqlite/
+sqlite3.c
+sqlite3.h
+*.sqlite
+*.sqlite3
+*.db
+
+# Node.js helper dependencies
+node_modules/
+
+# Environment and local settings
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
